@@ -167,6 +167,44 @@ select {
     color: rgb(32, 0, 95);
 }
 
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 4rem !important;
+    }
+        header,
+        form{
+            min-height: 3rem;
+            color: aqua;
+        }
+               form input,
+                        form button {
+                            padding: 1rem !important;
+                            padding-left: 1rem !important;
+                            font-size: 0.9rem !important;
+                            
+                }
+                                .todo-container{
+                                    margin: 1rem;
+                                    
+                                    
+                                    
+                        
+                                }
+                
+                                .fa-plus-circle {
+                                    margin-top: 0.2rem !important;
+                                    margin-left: -1px;
+                                    
+                                }
+                                    todo-list {
+                                      min-height: 3rem;
+                                    }
+                                         .todo-item {
+                                       padding: 0rem 0.2rem !important;
+                                                                          }
+                                     
+            }
  
 
 
